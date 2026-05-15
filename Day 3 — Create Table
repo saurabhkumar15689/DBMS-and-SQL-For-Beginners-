@@ -1,0 +1,7 @@
+# Create Table
+
+CREATE TABLE Employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    salary DECIMAL(10,2)
+);
