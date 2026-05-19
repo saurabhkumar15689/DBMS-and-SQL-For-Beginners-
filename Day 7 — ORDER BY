@@ -1,0 +1,4 @@
+# ORDER BY
+
+SELECT * FROM Employees
+ORDER BY salary DESC;
