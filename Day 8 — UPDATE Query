@@ -1,0 +1,5 @@
+# UPDATE Query
+
+UPDATE Employees
+SET salary = 70000
+WHERE id = 1;
