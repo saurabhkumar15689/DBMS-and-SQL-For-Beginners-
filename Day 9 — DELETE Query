@@ -1,0 +1,4 @@
+# DELETE Query
+
+DELETE FROM Employees
+WHERE id = 2;
