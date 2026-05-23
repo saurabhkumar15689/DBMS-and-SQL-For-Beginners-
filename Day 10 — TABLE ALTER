@@ -1,0 +1,4 @@
+# TABLE ALTER
+
+ALTER TABLE Employees
+ADD department VARCHAR(50);
