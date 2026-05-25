@@ -1,0 +1,4 @@
+# LIMIT
+
+SELECT * FROM Employees
+LIMIT 5;
