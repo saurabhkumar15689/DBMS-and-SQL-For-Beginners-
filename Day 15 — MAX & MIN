@@ -1,0 +1,4 @@
+# MAX & MIN
+
+SELECT MAX(salary), MIN(salary)
+FROM Employees;
