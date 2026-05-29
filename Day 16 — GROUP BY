@@ -1,0 +1,5 @@
+# GROUP BY
+
+SELECT department, COUNT(*)
+FROM Employees
+GROUP BY department;
