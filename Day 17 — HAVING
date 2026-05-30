@@ -1,0 +1,6 @@
+# HAVING
+
+SELECT department, AVG(salary)
+FROM Employees
+GROUP BY department
+HAVING AVG(salary) > 50000;
