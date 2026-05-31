@@ -1,0 +1,4 @@
+# LIKE
+
+SELECT * FROM Employees
+WHERE name LIKE 'S%';
