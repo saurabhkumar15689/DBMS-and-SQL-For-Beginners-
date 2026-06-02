@@ -1,0 +1,4 @@
+# IN Operator
+
+SELECT * FROM Employees
+WHERE department IN ('IT', 'HR');
