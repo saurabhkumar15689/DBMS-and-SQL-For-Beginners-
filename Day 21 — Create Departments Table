@@ -1,0 +1,6 @@
+# Create Departments Table
+
+CREATE TABLE Departments (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(50)
+);
