@@ -1,0 +1,6 @@
+# RIGHT JOIN
+
+SELECT Employees.name, Departments.dept_name
+FROM Employees
+RIGHT JOIN Departments
+ON Employees.id = Departments.dept_id;
