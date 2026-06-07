@@ -1,0 +1,6 @@
+# FULL JOIN
+
+SELECT Employees.name, Departments.dept_name
+FROM Employees
+FULL OUTER JOIN Departments
+ON Employees.id = Departments.dept_id;
