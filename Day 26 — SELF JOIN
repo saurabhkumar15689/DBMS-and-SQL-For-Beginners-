@@ -1,0 +1,5 @@
+# SELF JOIN
+
+SELECT A.name, B.name
+FROM Employees A, Employees B
+WHERE A.id <> B.id;
