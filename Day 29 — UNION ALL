@@ -1,0 +1,5 @@
+# UNION ALL
+
+SELECT name FROM Employees
+UNION ALL
+SELECT dept_name FROM Departments;
