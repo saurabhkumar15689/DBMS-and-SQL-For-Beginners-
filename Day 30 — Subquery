@@ -1,0 +1,8 @@
+# Subquery
+
+SELECT name
+FROM Employees
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM Employees
+);
