@@ -1,0 +1,6 @@
+# Views
+
+CREATE VIEW HighSalaryEmployees AS
+SELECT name, salary
+FROM Employees
+WHERE salary > 60000;
